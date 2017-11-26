@@ -13,8 +13,10 @@ UCLASS()
 class SCIFI_ARENA_FPS_API ASciFi_Arena_FPSGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
-	
+
+		virtual void StartPlay() override;
+
+
 	
 	
 };
